@@ -12,6 +12,15 @@
     typescript "~2.6.2"
     webpack-sources "^1.0.1"
 
+"@angular-devkit/core@0.0.24":
+  version "0.0.24"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-0.0.24.tgz#d57a49d42ce81cb5f299dcaee2025fd03b7aad70"
+  integrity sha512-abYk+YbDGnt/LSCDDI2CvJpIPaQGbvHjQc9hqK9KLZP5ZoxoRAqVV4K3POjatrE6l1ok83x3dVlt7Habxm6+Xg==
+  dependencies:
+    ajv "~5.5.1"
+    chokidar "^1.7.0"
+    source-map "^0.5.6"
+
 "@angular-devkit/core@~0.0.28":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-0.0.29.tgz#6fb319b45a62eff172318cbe256fdb24ef20af2b"
@@ -21,6 +30,14 @@
     chokidar "^1.7.0"
     rxjs "^5.5.6"
     source-map "^0.5.6"
+
+"@angular-devkit/schematics@0.0.45":
+  version "0.0.45"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-0.0.45.tgz#07419a5f8b935e819c9ae039742e81902d9f287d"
+  integrity sha512-lcuOEwfwN8zqH4lf3pmGa9NIWlvADuINjxDCtXIRwQc9PieeGmN56AMVTjFGk7SN+Wu+gPDMbL9wrBFM/u9z9g==
+  dependencies:
+    "@angular-devkit/core" "0.0.24"
+    "@ngtools/json-schema" "^1.1.0"
 
 "@angular-devkit/schematics@~0.0.51":
   version "0.0.52"
@@ -5709,9 +5726,9 @@ next-tick@^1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-"nightmare@git+https://github.com/bokuweb/nightmare.git#master":
+"nightmare@git+https://github.com/bokuweb/nightmare#master":
   version "2.10.0"
-  resolved "git+https://github.com/bokuweb/nightmare.git#7d1b8a40b6f5857a06e7f20440fc4f416c54e9a1"
+  resolved "git+https://github.com/bokuweb/nightmare#7d1b8a40b6f5857a06e7f20440fc4f416c54e9a1"
   dependencies:
     debug "^2.2.0"
     deep-defaults "^1.0.3"
